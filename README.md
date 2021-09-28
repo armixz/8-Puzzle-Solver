@@ -9,16 +9,16 @@
 Implement an 8-puzzle solver.
 
 - Description:
-The 8-puzzle problem is played on a 3-by-3 grid with 8 square tileslabeled 1 through 8 and a blank tile.
+    - The 8-puzzle problem is played on a 3-by-3 grid with 8 square tileslabeled 1 through 8 and a blank tile.
+    - Your goal is to rearrangeblocks so that they are in the order shown below.
+    - You are permitted to slide blocks horizontally or vertically intothe blank tile.
+
 <br/>
-Your goal is to rearrangeblocks so that they are in the order shown below.
-<br/>
-You are permitted to slide blocks horizontally or vertically intothe blank tile.
-  
+
 - It should have the following algorithms:
-    1. Depth-first search
-    2. Iterative deepening search
-    3. A* search using two different suitable heuristics
+    - Depth-first search
+    - Iterative deepening search
+    - A* search using two different suitable heuristics
 
 <br/>
 
