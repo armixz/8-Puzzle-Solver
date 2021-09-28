@@ -5,7 +5,7 @@
 
 ---
 
-### Objective:
+## Objective:
 Implement an 8-puzzle solver.
 
 - Description:
@@ -66,11 +66,11 @@ where:<br/>
 ## 3. Short comparative analysis of two heuristics used for A*
 
 ### A search heuristic h(n) is an estimate of the cost of the cheapest path from node **n** to a **goal** node.
-- h(n)is arbitrary, non-negative, and problem-specific.
+- h(n) is arbitrary, non-negative, and problem-specific.
 - If n is a goal node, h(n)=0.
-- h(n)must be easy to compute (without search).
+- h(n) must be easy to compute (without search).
 
-### There are 2 H function used in this script which are 
+### There are 2 Heuristic function that used in this script 
 
 - Manhattan Distance Heuristic:
     - The sum of the Manhattan distances of the tiles from their goal positions
@@ -82,12 +82,9 @@ where:<br/>
 ### Constructing an Admissible Heuristic for 8-Puzzle
 A tile can move from square A to square B
 
-- if square A and square B are adjacent, and square B is blank.
-
-A tile can move from square A to square B if A and B are adjacent.
-
-- The Manhattan distance heuristic
-- The Misplaced tile heuristic
+- if square A and square B are adjacent, and square B is blank.(can be used in the following Heuristics)
+    - The Manhattan distance heuristic
+    - The Misplaced tile heuristic
 
 <br/>
 
