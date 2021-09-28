@@ -80,6 +80,7 @@ where:<br/>
 <br/>
 
 ### Constructing an Admissible Heuristic for 8-Puzzle
+
 A tile can move from square A to square B
 
 - if square A and square B are adjacent, and square B is blank.(can be used in the following Heuristics)
