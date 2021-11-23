@@ -1,10 +1,4 @@
 
-# Homework #1 <br/> CS 4365.002 <br/> Dr. Dan Moldovan
-### NAME : ARMIN ZIAEI <br/> DATE : 09/28/2021 <br/> NETID: AXZ172330
-<br/>
-
----
-
 ## Objective:
 Implement an 8-puzzle solver.
 
