@@ -16,6 +16,8 @@ Implement an 8-puzzle solver.
 
 <br/>
 
+![screen-gif](./sol_b0.gif)
+
 ---
 
 ## 1. Instructions on how to run the program
